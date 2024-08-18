@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: transparent;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid #bdfeff;
+            box-shadow: 0 0 15px #1abc9c;
+            filter: blur(0px);
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #bdfeff;
+            box-shadow: 0 0 15px #1abc9c;
+            margin: 0 auto 20px auto;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #f39c12;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #f39c12;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #ecf0f1;
+            margin: 10px 0;
+            text-shadow: 0 0 10px #1abc9c;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .highlight {
+            color: #1abc9c;
+            text-shadow: 0 0 10px #1abc9c;
+        }
+
+        .projects, .skills {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .projects ul, .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects li, .skills li {
+            background: #34495e;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 2px solid #1abc9c;
+            box-shadow: 0 0 10px #1abc9c;
+        }
+
+        .skills span {
+            background: #16a085;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 5px;
+            display: inline-block;
+            font-size: 1em;
+            border: 2px solid #16a085;
+            box-shadow: 0 0 10px #16a085;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/564x/44/43/e4/4443e44b8da1c181f9f461aa94b79013.jpg" alt="Foto de Perfil" class="profile-img">
+        <h1>Nombre del Usuario</h1>
+        <p><strong>Título o Profesión</strong></p>
+        <h2>Descripción Corta</h2>
+        <p> Breve descripción sobre la persona y sus logros. Incluye cualquier información relevante y de interés.</p>
+        <h2 class="highlight">Temporada Actual:</h2>
+        <p>Descripción del proyecto o enfoque actual de la persona.</p>
+
+        <div class="projects">
+            <h2>Proyectos Recientes:</h2>
+            <ul>
+                <li>Proyecto 1 </li>
+                <li>Proyecto 2 </li>
+                <li>Proyecto 3 </li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h2>Habilidades:</h2>
+            <ul>
+                <li><span>Habilidad 1</span></li>
+                <li><span>Habilidad 2</span></li>
+                <li><span>Habilidad 3</span></li>
+                <li><span>Habilidad 4</span></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p> Mensaje final invitando a seguir para más actualizaciones y proyectos emocionantes.</p>
+        </div>
+    </div>
+</body>
+</html>
